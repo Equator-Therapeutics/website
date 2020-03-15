@@ -68,16 +68,12 @@ a.person-name.long-name {
 
 .heading-1 {
     text-align: center;
-    font-family: 'Khand', sans-serif;
-    font-size: 82px;
-    font-weight: 500;
-    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 200;
     padding: 4% 17%;
 }
 
-.heading-1-less {
-    padding: 1% 17%;
-}
 
 .heading-1-long {
     font-family: 'Khand', sans-serif;
@@ -142,6 +138,23 @@ article {
     align-items: right;
     margin: 7% ;
     padding: 3% 7% 12% 7%;
+    index: 2;
+}
+
+.main-bg {
+    background-color: rgba(0, 0, 0, 0.87);
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    margin: 7% ;
+    /* padding: 3% 7% 12% 7%; */
     index: 2;
 }
 
